@@ -318,7 +318,7 @@ h6 {
 .header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 30px 0;
+  padding: 0;
   background-color: #000;
 }
 
@@ -383,7 +383,7 @@ h6 {
 --------------------------------------------------------------*/
 @media (min-width: 1280px) {
   .navbar {
-    padding: 0;
+    padding: 20px;
   }
 
   .navbar ul {
@@ -747,7 +747,7 @@ h6 {
 .gallery .gallery-item {
   position: relative;
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .gallery .gallery-item img {
@@ -1216,11 +1216,22 @@ h6 {
 
 /*--------------------------------------------------------------
 # Hero Section
---------------------------------------------------------------*/
+-------------------------------------------------------------- */
+/* #hero
+{
+  background-image: url('assets\hero\bg.jpg');
+
+} */
+
 .hero {
   width: 100%;
   min-height: 30vh;
-  background: rgba(21, 19, 16, 0.923);
+  
+  /* background-image: url('C:\Users\window\Desktop\gangotri-master\gangotri-master\assets\hero\bg.jpg');  */
+  background: rgba(21, 19, 16, 0.923); 
+  
+
+  
   background-size: cover;
   position: relative;
   padding: 140px 0 60px 0;
@@ -1238,7 +1249,8 @@ h6 {
   position: relative;
   z-index: 1;
   padding: 0 5px;
-  display: inline-block;
+  /* color: #ffc107; */
+  /* display: inline; */
 }
 
 .hero h2 span:before {
